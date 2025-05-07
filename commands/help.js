@@ -10,7 +10,7 @@ module.exports = {
 
   description: "Displays all available commands or detailed info about a specific command",
 
-  author: "Cid Kagenou",
+  author: "Begie Cahaponon",
 
   version: "3.0",
 
@@ -132,7 +132,7 @@ module.exports = {
 
         detailedHelp += "✍️ 『 𝗔𝘂𝘁𝗵𝗼𝗿 』\n";
 
-        detailedHelp += `${command.author || "Cid Kagenou"}\n\n`;
+        detailedHelp += `${command.author || "Begie Cahaponon"}\n\n`;
 
         detailedHelp += "🔖 『 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 』\n";
 
@@ -142,9 +142,9 @@ module.exports = {
 
         detailedHelp += `${command.usage || `${prefix}${command.name}`}\n\n`;
 
-        detailedHelp += `> 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 𝗖𝗶𝗱 𝗞𝗮𝗴𝗲𝗻𝗼𝘂 𝗯𝗼𝘁! 💖\n`;
+        detailedHelp += `> 𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 CHUPOTT 👾🖕 𝗯𝗼𝘁! 💖\n`;
 
-        detailedHelp += `> 𝗙𝗼𝗿 𝗳𝘂𝗿𝘁𝗵𝗲𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲, 𝗰𝗼𝗻𝘁𝗮𝗰𝘁: 𝗸𝗼𝗿𝗶𝘀𝗮𝘄𝗮𝘂𝗺𝘂𝘇𝗮𝗸𝗶@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺`;
+        detailedHelp += `> 𝗙𝗼𝗿 𝗳𝘂𝗿𝘁𝗵𝗲𝗿 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲, 𝗰𝗼𝗻𝘁𝗮𝗰𝘁: https://www.facebook.com/begieurboy`;
 
         sendMessage(api, { threadID, message: detailedHelp });
 
